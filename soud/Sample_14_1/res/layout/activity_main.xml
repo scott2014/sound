@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_back">
+
+    <LinearLayout 
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout 
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+	    <Button
+	        android:id="@+id/start_play"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/ic_startp"
+	        android:text="@string/start_play" />
+	
+	    <Button
+	        android:id="@+id/stop_play"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/stop_play" 
+	        android:background="@drawable/ic_play"/>
+	    </LinearLayout>
+	    <LinearLayout 
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+	    <EditText
+	        android:id="@+id/playtext"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:singleLine="false" 
+	        android:inputType="textMultiLine"
+	        android:text="@string/Data" />
+	    </LinearLayout>
+		
+	    </LinearLayout>
+	    
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+	    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+	    <Button
+	        android:id="@+id/start_reg"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/start_rec" 
+	        android:background="@drawable/ic_start"/>
+	
+	    <Button
+	        android:id="@+id/stop_reg"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/stop_rec" 
+	        android:background="@drawable/ic_stop"/>
+	    </LinearLayout>
+	    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/regtext"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:text="@string/start_rec" />
+        </LinearLayout>
+	    </LinearLayout>
+
+</LinearLayout>

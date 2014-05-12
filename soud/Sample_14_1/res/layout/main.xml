@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>		<!-- 声明xml的版本以及编码格式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"><!-- 添加一个垂直的线性布局 -->
+	<TextView  
+		android:id="@+id/title"
+		android:gravity="center_horizontal"
+		android:textSize="20px"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/title"/><!-- 添加一个TextView控件 -->
+	<TextView  
+		android:id="@+id/myTextView1"
+		android:textSize="18px"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/myTextView1"/><!-- 添加一个TextView控件 -->
+	<TextView  
+		android:id="@+id/myTextView2"
+		android:textSize="18px"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/myTextView2"/><!-- 添加一个TextView控件 -->
+	<TextView  
+		android:id="@+id/myTextView3"
+		android:textSize="18px"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/myTextView3"/><!-- 添加一个TextView控件 -->           
+</LinearLayout>
